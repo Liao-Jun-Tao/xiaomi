@@ -1,0 +1,62 @@
+@import '../common/mixin.styl';
+
+.goods {
+    width: 96%;
+    margin: 0 auto;
+    columns: 2;
+    column-gap: 10px;
+
+    .goods-wrapper {
+        background-color: #f8f8f8;
+        border: 1px solid #dddddddd;
+        background-color: #f1f1f1;
+        margin-bottom: 0.266667rem;
+        border-radius: 0.266667rem;
+
+        .goods-content {
+            // border: 1px solid #dddddddd
+            // background-color: #f1f1f1;
+            // margin-bottom: .266667rem
+            // border-radius: .266667rem
+            .goods-photo {
+                wh(100%, 100%);
+            }
+
+            .goods-box {
+                background-color: #f9f9f9;
+
+                .goods-title {
+                    font-size: 0.453333rem;
+                    font-weight: 500;
+                    color: #363636;
+                }
+
+                .goods-mes {
+                    color: #787878;
+                    font-size: 0.373333rem;
+                }
+
+                .goods-dis {
+                    border: 1px solid #fd6c02;
+                    fj(flex-start);
+                    border-radius: 0.133333rem;
+                    align-items: center;
+                    width: 3.2rem;
+
+                    .juan {
+                        font-size: 0.373333rem;
+                        color: #fff;
+                        background-color: #fd6c02;
+                        margin-right: 0.106667rem;
+                    }
+                }
+
+                .goods-price {
+                    color: #323232;
+                    font-size: 0.426667rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
